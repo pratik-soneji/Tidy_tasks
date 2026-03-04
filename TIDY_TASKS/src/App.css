@@ -1,0 +1,23 @@
+/* Utility classes only – typography and layout come from Tailwind/ShadCN */
+
+.profileButtonPicture {
+  background-image: url(assets/deadpool-3-3840x2160-14002.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profileButtonBackground {
+  background-image: url(assets/spider-gwen-marvel-superheroes-marvel-universe-dark-3840x2160-3445.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom {
+  background-color: rgba(249, 249, 249, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.bg-custom {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+}
