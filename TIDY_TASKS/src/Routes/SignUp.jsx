@@ -11,18 +11,6 @@ import axios from "axios";
 
 function SignUp() {
   const nav = useNavigate();
-  const [count, setCount] = useState(0);
-  const handleClick = () => {
-    setCount(count + 1);
-    // // setCount(count + 2);
-    // setCount(count + 3);
-    console.log(count);
-  }
-  const call = async () => {
-    const data = await axios.get("https://dummyjson.com/products")
-    console.log(data);
-
-  }
   // useEffect(() => {
   //   call();
   // }, [count])
@@ -206,7 +194,7 @@ function SignUp() {
           </p>
         </div>
       </div>
-      <button onClick={handleClick}>Count : {count}</button>
+
     </div>
   );
 }
